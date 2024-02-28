@@ -1,0 +1,16 @@
+.header {
+  text-align: center;
+  margin: 75px 0;
+  color: #242424;
+}
+
+.header > h4 {
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 > span {
+  color: #8499ac;
+}

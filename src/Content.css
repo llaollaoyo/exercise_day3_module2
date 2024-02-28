@@ -1,0 +1,79 @@
+.flex-container {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 125px;
+}
+
+.flex-item {
+  padding: 30px;
+  width: 300px;
+  height: 400px;
+  margin-top: 10px;
+  /*border-style: solid;
+  border-width: 5px;
+  border-color: black;*/
+}
+
+#profile-photo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+#about-me {
+  color: #242424;
+}
+
+#about-me > h1 {
+  margin: 10px 0 15px;
+}
+
+#about-me > p {
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#quotes > img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  display: block;
+  transition: 0.5s;
+  animation: rotation 10s infinite linear;
+}
+
+#quotes > img:hover {
+  background: radial-gradient(circle at center, #a6cbed, #f5f2f0, #f5f2f0 150%);
+}
+
+#quotes > h2 {
+  margin-top: 50px;
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  color: #242424;
+  border-left: 1px solid #242424;
+}
+
+#quotes > h4 {
+  margin-top: 5px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  color: #242424;
+  text-align: right;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
